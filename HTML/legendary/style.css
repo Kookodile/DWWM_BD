@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    top: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #eee683;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 960px;
+    justify-content: center;
+    align-items: center;}
+
+header {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    width: 960px;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.bienvenue {
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    letter-spacing: 25px;
+}
+
+header h2 {
+    text-align: center;
+    color: #eee683;
+    position: relative;
+    padding-bottom: 3rem;
+    font-weight: 100;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2rem   ;
+}
+
+
+.intro  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3e3838;
+    color: #eee683;
+    font-family: Roboto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro h2  {
+    border-top-style: solid;
+    border-bottom-style: solid ;
+    border-color: #eee683;
+    border-width: thin;
+    font-weight: 100;
+    letter-spacing: 10px;
+    width: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px  ;
+}
+
+
+.intro  p {
+    padding: 0 5rem;
+}
+
+.premier {
+    background-color: white;
+    padding: 1rem 3rem;
+
+    color: #828282;
+}
+
+.premier h1 {
+    color: #6bbbb2;
+}
+
+.premier .description {
+    color: #6bbbb2;
+}
+
+.deuxieme {
+    background-color: #6bbbb2;
+    padding: 1rem 3rem;
+}
+
+.deuxieme h1 {
+    color: black;
+}
+
+.deuxieme .description {
+    color: white;
+}
+
+.troisieme {
+    background-color: #3d3737;
+    color: white;
+    padding: 1rem 3rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem;
+    padding-top: 1rem;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+footer span {
+    color: #eee683;
+}
+
+
+.intro, .premier, .deuxieme, .troisieme {
+    font-size: 1.1rem;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.intro, .premier, .deuxieme, .troisieme p {
+    line-height: 2rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        width: 100%;
+        height: auto;
+        display: block;
+        min-width: 300px;
+    }
+
+}
