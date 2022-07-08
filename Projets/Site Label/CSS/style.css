@@ -1,0 +1,19 @@
+nav {
+  background-color: #ffe8b5;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  font-size: 24px;
+  padding: 0 2rem;
+  color: white;
+  background-color: #818bae;
+}
+/*# sourceMappingURL=style.css.map */
